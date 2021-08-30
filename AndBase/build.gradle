@@ -1,0 +1,66 @@
+buildscript {
+
+    repositories {
+
+        mavenCentral()
+
+    }
+
+    dependencies {
+
+        //classpath 'com.android.tools.build:gradle:0.12.+'
+
+    }
+
+}
+
+apply plugin: 'android-library'
+
+repositories {
+
+    mavenCentral()
+
+}
+
+android {
+
+    compileSdkVersion 19
+
+    buildToolsVersion "20.0.0"
+
+    defaultConfig {
+
+        minSdkVersion 14
+
+        targetSdkVersion 19
+
+    }
+
+    sourceSets {
+
+        main {
+
+            manifest.srcFile 'AndroidManifest.xml'
+
+            java.srcDirs = ['src']
+
+            resources.srcDirs = ['src']
+
+            aidl.srcDirs = ['src']
+
+            renderscript.srcDirs = ['src']
+
+        }
+
+    }
+
+}
+
+dependencies {
+
+// compile ‘com.android.support:appcompat-v7:19.0.+’
+
+    compile files('libs/android-support-v13.jar')
+    compile files('libs/ksoap2-android-assembly-3.3.0-jar-with-dependencies.jar')
+
+}

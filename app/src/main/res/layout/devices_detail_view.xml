@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/popviewbg"
+    android:padding="8dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="left|center_vertical"
+        android:id="@+id/device_detail_Name"
+        android:textSize="12sp"
+        android:text="终端名称 15195713490"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:layout_marginTop="4dp"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:id="@+id/device_detail_OnTime"
+        android:text="在线时间 2015-05-30 20:46:46"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="left|center_vertical"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:id="@+id/device_detail_LocType"
+        android:text="定位类型  GPS"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="left|center_vertical"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:id="@+id/device_detail_BaseInfo"
+        android:text="速度 0.00"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="left|center_vertical"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:id="@+id/device_detail_Speed"
+        android:text="速度 0.00"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:layout_marginTop="4dp"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:id="@+id/device_detail_Direction"
+        android:text="方向 正北"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:layout_marginTop="4dp"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:id="@+id/device_detail_DeviceStatus"
+        android:text="设备状态 充电完成状态"
+        android:paddingBottom="10dp"
+        />
+</LinearLayout>
