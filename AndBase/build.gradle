@@ -21,19 +21,17 @@ repositories {
     mavenCentral()
 
 }
-
+def configs = rootProject.ext.android
 android {
-
-    compileSdkVersion 19
-
-    buildToolsVersion "20.0.0"
-
+    compileSdkVersion configs.compileSdkVersion
     defaultConfig {
-
-        minSdkVersion 14
-
-        targetSdkVersion 19
-
+        minSdkVersion configs.minSdkVersion
+        targetSdkVersion configs.targetSdkVersion
+        versionCode configs.versionCode
+        versionName configs.versionName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        useLibrary 'org.apache.http.legacy'
     }
 
     sourceSets {
@@ -60,7 +58,6 @@ dependencies {
 
 // compile ‘com.android.support:appcompat-v7:19.0.+’
 
-    compile files('libs/android-support-v13.jar')
-    compile files('libs/ksoap2-android-assembly-3.3.0-jar-with-dependencies.jar')
-
+    implementation files('libs/android-support-v13.jar')
+    api files('libs/ksoap2-android-assembly-3.3.0-jar-with-dependencies.jar')
 }

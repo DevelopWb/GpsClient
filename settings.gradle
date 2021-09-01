@@ -1,2 +1,2 @@
-include ':AndBase'
+include ':AndBase', ':module_Base'
 include ':app'

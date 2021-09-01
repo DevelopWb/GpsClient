@@ -42,6 +42,7 @@ import com.baidu.mapapi.map.PolylineOptions;
 import com.baidu.mapapi.model.LatLng;
 import com.baidu.mapapi.utils.CoordinateConverter;
 import com.baidu.mapapi.utils.DistanceUtil;
+import com.juntai.disabled.basecomponent.utils.PickerManager;
 import com.mj.gpsclient.AppHttpUtil;
 import com.mj.gpsclient.R;
 import com.mj.gpsclient.global.DebugLog;
@@ -58,6 +59,7 @@ import org.json.JSONObject;
 import org.ksoap2.SoapFault;
 import org.ksoap2.serialization.SoapObject;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
@@ -227,13 +229,23 @@ public class TrackHistoryFragment extends AbFragment implements View.OnClickList
             @Override
             public void onStartClick(View view) {
                 StartEndTime_wheel_select =(TextView)view;
-                testWheel(view);
+                PickerManager.getInstance().showTimePickerView(mActivity, new boolean[]{true, true, true, true, true, false}, "选择开始时间", new PickerManager.OnTimePickerTimeSelectedListener() {
+                    @Override
+                    public void onTimeSelect(Date date, View v) {
+                        StartEndTime_wheel_select.setText(new SimpleDateFormat("yyyy-MM-dd HH:ss").format(date));
+                    }
+                });
             }
 
             @Override
             public void onEndClick(View view) {
                 StartEndTime_wheel_select =(TextView)view;
-                testWheel(view);
+                PickerManager.getInstance().showTimePickerView(mActivity, new boolean[]{true, true, true, true, true, false}, "选择结束时间", new PickerManager.OnTimePickerTimeSelectedListener() {
+                    @Override
+                    public void onTimeSelect(Date date, View v) {
+                        StartEndTime_wheel_select.setText(new SimpleDateFormat("yyyy-MM-dd HH:ss").format(date));
+                    }
+                });
             }
 
             @Override

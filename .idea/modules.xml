@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/AndBase/AndBase.iml" filepath="$PROJECT_DIR$/AndBase/AndBase.iml" group="GpsClient/AndBase" />
       <module fileurl="file://$PROJECT_DIR$/GpsClient.iml" filepath="$PROJECT_DIR$/GpsClient.iml" group="GpsClient" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="GpsClient/app" />
+      <module fileurl="file://$PROJECT_DIR$/module_Base/module_Base.iml" filepath="$PROJECT_DIR$/module_Base/module_Base.iml" group="GpsClient/module_Base" />
     </modules>
   </component>
 </project>
