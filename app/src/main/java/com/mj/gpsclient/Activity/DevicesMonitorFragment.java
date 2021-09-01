@@ -190,8 +190,7 @@ public class DevicesMonitorFragment extends AbFragment implements View.OnClickLi
                 }
 
                 @Override
-                public boolean onMapPoiClick(MapPoi mapPoi) {
-                    return false;
+                public void onMapPoiClick(MapPoi mapPoi) {
                 }
             });
 //            DevicesDetailView devicesDetailView =new DevicesDetailView(mActivity);

@@ -48,8 +48,11 @@ import com.baidu.mapapi.search.core.SearchResult;
 import com.baidu.mapapi.search.geocode.GeoCodeResult;
 import com.baidu.mapapi.search.geocode.OnGetGeoCoderResultListener;
 import com.baidu.mapapi.search.geocode.ReverseGeoCodeResult;
+import com.baidu.mapapi.search.route.BikingRouteResult;
 import com.baidu.mapapi.search.route.DrivingRoutePlanOption;
 import com.baidu.mapapi.search.route.DrivingRouteResult;
+import com.baidu.mapapi.search.route.IndoorRouteResult;
+import com.baidu.mapapi.search.route.MassTransitRouteResult;
 import com.baidu.mapapi.search.route.OnGetRoutePlanResultListener;
 import com.baidu.mapapi.search.route.PlanNode;
 import com.baidu.mapapi.search.route.RoutePlanSearch;
@@ -325,8 +328,7 @@ public class TrackRealtimeFragment extends AbFragment implements View.OnClickLis
             }
 
             @Override
-            public boolean onMapPoiClick(MapPoi mapPoi) {
-                return false;
+            public void onMapPoiClick(MapPoi mapPoi) {
             }
         });
 
@@ -741,6 +743,11 @@ public class TrackRealtimeFragment extends AbFragment implements View.OnClickLis
     }
 
     @Override
+    public void onGetMassTransitRouteResult(MassTransitRouteResult massTransitRouteResult) {
+
+    }
+
+    @Override
     public void onGetDrivingRouteResult(DrivingRouteResult result) {
 
         final DrivingRouteResult result1 = result;
@@ -779,6 +786,17 @@ public class TrackRealtimeFragment extends AbFragment implements View.OnClickLis
             mHandler.sendEmptyMessageDelayed(ROUT_DRAW_END, 4000);
         }
     }
+
+    @Override
+    public void onGetIndoorRouteResult(IndoorRouteResult indoorRouteResult) {
+
+    }
+
+    @Override
+    public void onGetBikingRouteResult(BikingRouteResult bikingRouteResult) {
+
+    }
+
 
     public void getRouteOverlay() {
         mj_showLoadView();

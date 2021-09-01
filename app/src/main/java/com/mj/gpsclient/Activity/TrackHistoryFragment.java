@@ -654,8 +654,8 @@ public class TrackHistoryFragment extends AbFragment implements View.OnClickList
             }
 
             @Override
-            public boolean onMapPoiClick(MapPoi mapPoi) {
-                return false;
+            public void onMapPoiClick(MapPoi mapPoi) {
+
             }
         });
         mBaiduMap.setOnMarkerClickListener(new BaiduMap.OnMarkerClickListener() {
