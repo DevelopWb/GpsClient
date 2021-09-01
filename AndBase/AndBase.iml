@@ -88,8 +88,8 @@
     <orderEntry type="jdk" jdkName="Android API 28 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.android.support:multidex-instrumentation:1.0.2@aar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:D./other/GpsClient/AndBase/libs/ksoap2-android-assembly-3.3.0-jar-with-dependencies.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:D./other/GpsClient/AndBase/libs/android-support-v13.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:D./other/GpsClient/AndBase/libs/ksoap2-android-assembly-3.3.0-jar-with-dependencies.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:multidex:1.0.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.http.legacy-android-28" level="project" />
   </component>

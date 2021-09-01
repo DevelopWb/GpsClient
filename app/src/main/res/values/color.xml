@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="colorAccent">#2C8FFC</color>
+    <color name="colorTheme">#58A4DB</color>
+    <color name="colorThemeDark">#2851CF</color>
+    <color name="gray_light">#f2f2f2</color>
 
     <color name="moji_background_gray">#fffaf8f8</color>
     <color name="moji_title_menu_bg">#ff22292c</color>
