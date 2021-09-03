@@ -1,0 +1,57 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:2:1-16:12
+INJECTED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:2:1-16:12
+INJECTED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:2:1-16:12
+INJECTED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:2:1-16:12
+INJECTED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:2:1-16:12
+INJECTED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:2:1-16:12
+INJECTED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:2:1-16:12
+	package
+		ADDED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:3:5-21
+		INJECTED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml
+		INJECTED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:5:5-32
+		INJECTED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml
+		INJECTED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:4:5-29
+		INJECTED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml
+		INJECTED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml
+uses-sdk
+ADDED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:7:5-47
+INJECTED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:7:5-47
+INJECTED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:7:5-47
+INJECTED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:7:5-47
+INJECTED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:7:5-47
+	android:targetSdkVersion
+		ADDED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:7:15-44
+		INJECTED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml
+		INJECTED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml
+		ADDED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:7:5-47
+		INJECTED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml
+application
+ADDED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:9:5-11:19
+	android:allowBackup
+		ADDED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:10:9-35
+uses-permission#android.permission.INTERNET
+ADDED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:14:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:15:5-74
+	android:name
+		ADDED from D:\yangGCode\Gps\GpsClient\AndBase\AndroidManifest.xml:15:22-71
