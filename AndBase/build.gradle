@@ -31,7 +31,6 @@ android {
         versionName configs.versionName
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
-        useLibrary 'org.apache.http.legacy'
     }
 
     sourceSets {
