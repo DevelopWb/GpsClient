@@ -12,7 +12,7 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
         ndk {
-            abiFilters "armeabi-v7a"//,"x86"//,"armeabi"////,"arm64-v8a","x86_64"
+            abiFilters "armeabi-v7a","armeabi"////,"arm64-v8a","x86_64"
         }
         useLibrary 'org.apache.http.legacy'
     }
@@ -45,8 +45,8 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(':AndBase')
-    compile files('libs/BaiduLBS_Android.jar')
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    api project(':AndBase')
+    api files('libs/BaiduLBS_Android.jar')
     implementation  librarys["picker_view"]
 }
